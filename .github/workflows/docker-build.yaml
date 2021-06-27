@@ -30,6 +30,8 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
+          file: ./Dockerfile
+          platforms: linux/amd64
           tags: python-helloworld:latest
           context: .
           
