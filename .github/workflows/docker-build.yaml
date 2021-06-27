@@ -32,7 +32,7 @@ jobs:
           push: true
           file: ./Dockerfile
           platforms: linux/amd64
-          tags: python-helloworld:latest
+          tags: hayari/python-helloworld:latest
           context: .
           
       - name: Image digest
